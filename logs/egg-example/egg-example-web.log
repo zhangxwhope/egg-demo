@@ -193,3 +193,48 @@ hostname: LAPTOP-74JV3VGE
 pid: 22116
 hostname: LAPTOP-74JV3VGE
 
+2019-08-01 17:44:37,241 ERROR 15052 [-/127.0.0.1/-/5ms GET /news] nodejs.TypeError: Cannot read property 'list' of undefined
+    at NewsController.list (E:\workspace\egg-demo\app\controller\news.js:16:45)
+    at Object.callFn (E:\workspace\egg-demo\node_modules\_egg-core@4.17.2@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\workspace\egg-demo\node_modules\_egg-core@4.17.2@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\workspace\egg-demo\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\workspace\egg-demo\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\workspace\egg-demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\workspace\egg-demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\workspace\egg-demo\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\workspace\egg-demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\workspace\egg-demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 15052
+hostname: LAPTOP-74JV3VGE
+
+2019-08-01 17:45:55,574 ERROR 9252 [-/127.0.0.1/-/16ms GET /news] nodejs.TypeError: Cannot read property 'list' of undefined
+    at NewsController.list (E:\workspace\egg-demo\app\controller\news.js:17:45)
+    at Object.callFn (E:\workspace\egg-demo\node_modules\_egg-core@4.17.2@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\workspace\egg-demo\node_modules\_egg-core@4.17.2@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\workspace\egg-demo\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\workspace\egg-demo\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\workspace\egg-demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\workspace\egg-demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\workspace\egg-demo\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\workspace\egg-demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\workspace\egg-demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 9252
+hostname: LAPTOP-74JV3VGE
+
+2019-08-01 17:46:03,406 ERROR 9252 [-/127.0.0.1/-/8ms GET /news] nodejs.TypeError: Cannot read property 'list' of undefined
+    at NewsController.list (E:\workspace\egg-demo\app\controller\news.js:17:45)
+    at Object.callFn (E:\workspace\egg-demo\node_modules\_egg-core@4.17.2@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\workspace\egg-demo\node_modules\_egg-core@4.17.2@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\workspace\egg-demo\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\workspace\egg-demo\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\workspace\egg-demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\workspace\egg-demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\workspace\egg-demo\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (E:\workspace\egg-demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\workspace\egg-demo\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 9252
+hostname: LAPTOP-74JV3VGE
+

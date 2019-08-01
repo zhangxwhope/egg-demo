@@ -73,7 +73,7 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "E:\\workspace\\egg-example\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\lib\\onerror_page.mustache"
+      "templatePath": "E:\\workspace\\egg-demo\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\lib\\onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
@@ -86,8 +86,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "E:\\workspace\\egg-example\\node_modules\\_egg-watcher@3.1.0@egg-watcher\\lib\\event-sources\\default",
-        "development": "E:\\workspace\\egg-example\\node_modules\\_egg-watcher@3.1.0@egg-watcher\\lib\\event-sources\\development"
+        "default": "E:\\workspace\\egg-demo\\node_modules\\_egg-watcher@3.1.0@egg-watcher\\lib\\event-sources\\default",
+        "development": "E:\\workspace\\egg-demo\\node_modules\\_egg-watcher@3.1.0@egg-watcher\\lib\\event-sources\\development"
       }
     },
     "customLogger": {
@@ -133,14 +133,14 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "E:\\workspace\\egg-example\\app\\public",
+      "dir": "E:\\workspace\\egg-demo\\app\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "E:\\workspace\\egg-example\\app\\view",
+      "root": "E:\\workspace\\egg-demo\\app\\view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "nunjucks",
@@ -178,15 +178,16 @@
       "license": "ISC",
       "dependencies": {
         "egg": "^2.22.2",
-        "egg-view-nunjucks": "^2.2.0"
+        "egg-view-nunjucks": "^2.2.0",
+        "moment": "^2.24.0"
       },
       "devDependencies": {
         "egg-bin": "^4.13.0"
       }
     },
-    "baseDir": "E:\\workspace\\egg-example",
+    "baseDir": "E:\\workspace\\egg-demo",
     "HOME": "C:\\Users\\zhang",
-    "rundir": "E:\\workspace\\egg-example\\run",
+    "rundir": "E:\\workspace\\egg-demo\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -216,7 +217,7 @@
       }
     },
     "logger": {
-      "dir": "E:\\workspace\\egg-example\\logs\\egg-example",
+      "dir": "E:\\workspace\\egg-demo\\logs\\egg-example",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -279,6 +280,10 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
+    "news": {
+      "pageSize": 5,
+      "serverUrl": "https://hacker-news.firebaseio.com/v0"
+    },
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": [],
     "appMiddleware": "~config~appMiddlewares"
@@ -291,8 +296,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\workspace\\egg-example\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
-      "path": "E:\\workspace\\egg-example\\node_modules\\_egg-session@3.1.0@egg-session",
+      "from": "E:\\workspace\\egg-demo\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
+      "path": "E:\\workspace\\egg-demo\\node_modules\\_egg-session@3.1.0@egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -304,8 +309,8 @@
         "session"
       ],
       "env": [],
-      "from": "E:\\workspace\\egg-example\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
-      "path": "E:\\workspace\\egg-example\\node_modules\\_egg-security@2.5.0@egg-security",
+      "from": "E:\\workspace\\egg-demo\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
+      "path": "E:\\workspace\\egg-demo\\node_modules\\_egg-security@2.5.0@egg-security",
       "version": "2.5.0"
     },
     "jsonp": {
@@ -317,8 +322,8 @@
         "security"
       ],
       "env": [],
-      "from": "E:\\workspace\\egg-example\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
-      "path": "E:\\workspace\\egg-example\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp",
+      "from": "E:\\workspace\\egg-demo\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
+      "path": "E:\\workspace\\egg-demo\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -330,8 +335,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "E:\\workspace\\egg-example\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
-      "path": "E:\\workspace\\egg-example\\node_modules\\_egg-onerror@2.1.0@egg-onerror",
+      "from": "E:\\workspace\\egg-demo\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
+      "path": "E:\\workspace\\egg-demo\\node_modules\\_egg-onerror@2.1.0@egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -341,8 +346,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\workspace\\egg-example\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
-      "path": "E:\\workspace\\egg-example\\node_modules\\_egg-i18n@2.1.1@egg-i18n",
+      "from": "E:\\workspace\\egg-demo\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
+      "path": "E:\\workspace\\egg-demo\\node_modules\\_egg-i18n@2.1.1@egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -352,8 +357,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\workspace\\egg-example\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
-      "path": "E:\\workspace\\egg-example\\node_modules\\_egg-watcher@3.1.0@egg-watcher",
+      "from": "E:\\workspace\\egg-demo\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
+      "path": "E:\\workspace\\egg-demo\\node_modules\\_egg-watcher@3.1.0@egg-watcher",
       "version": "3.1.0"
     },
     "schedule": {
@@ -363,8 +368,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\workspace\\egg-example\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
-      "path": "E:\\workspace\\egg-example\\node_modules\\_egg-schedule@3.6.2@egg-schedule",
+      "from": "E:\\workspace\\egg-demo\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
+      "path": "E:\\workspace\\egg-demo\\node_modules\\_egg-schedule@3.6.2@egg-schedule",
       "version": "3.6.2"
     },
     "multipart": {
@@ -376,8 +381,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "E:\\workspace\\egg-example\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
-      "path": "E:\\workspace\\egg-example\\node_modules\\_egg-multipart@2.7.1@egg-multipart",
+      "from": "E:\\workspace\\egg-demo\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
+      "path": "E:\\workspace\\egg-demo\\node_modules\\_egg-multipart@2.7.1@egg-multipart",
       "version": "2.7.1"
     },
     "development": {
@@ -391,8 +396,8 @@
       "env": [
         "local"
       ],
-      "from": "E:\\workspace\\egg-example\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
-      "path": "E:\\workspace\\egg-example\\node_modules\\_egg-development@2.4.3@egg-development",
+      "from": "E:\\workspace\\egg-demo\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
+      "path": "E:\\workspace\\egg-demo\\node_modules\\_egg-development@2.4.3@egg-development",
       "version": "2.4.3"
     },
     "logrotator": {
@@ -404,8 +409,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\workspace\\egg-example\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
-      "path": "E:\\workspace\\egg-example\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator",
+      "from": "E:\\workspace\\egg-demo\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
+      "path": "E:\\workspace\\egg-demo\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator",
       "version": "3.1.0"
     },
     "static": {
@@ -415,8 +420,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\workspace\\egg-example\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
-      "path": "E:\\workspace\\egg-example\\node_modules\\_egg-static@2.2.0@egg-static",
+      "from": "E:\\workspace\\egg-demo\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
+      "path": "E:\\workspace\\egg-demo\\node_modules\\_egg-static@2.2.0@egg-static",
       "version": "2.2.0"
     },
     "view": {
@@ -426,8 +431,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\workspace\\egg-example\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
-      "path": "E:\\workspace\\egg-example\\node_modules\\_egg-view@2.1.2@egg-view",
+      "from": "E:\\workspace\\egg-demo\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
+      "path": "E:\\workspace\\egg-demo\\node_modules\\_egg-view@2.1.2@egg-view",
       "version": "2.1.2"
     },
     "nunjucks": {
@@ -440,8 +445,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\workspace\\egg-example\\config\\plugin.js",
-      "path": "E:\\workspace\\egg-example\\node_modules\\_egg-view-nunjucks@2.2.0@egg-view-nunjucks",
+      "from": "E:\\workspace\\egg-demo\\config\\plugin.js",
+      "path": "E:\\workspace\\egg-demo\\node_modules\\_egg-view-nunjucks@2.2.0@egg-view-nunjucks",
       "version": "2.2.0"
     }
   }
